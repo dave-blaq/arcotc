@@ -1,0 +1,1 @@
+require('fs').writeFileSync('contracts/Escrow.sol', require('fs').readFileSync('write_contract.js'))
